@@ -1,0 +1,31 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+}
+
+.profile {
+    margin: 100px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    color: #333;
+}
+
+img {
+    max-width: 200px;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+[data-testid="currentDayOfTheWeek"],
+[data-testid="currentUTCTime"],
+[data-testid="myTrack"],
+[data-testid="githubURL"] {
+    font-size: 20px;
+    margin-top: 10px;
+}
